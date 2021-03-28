@@ -63,6 +63,10 @@ ul {
   padding-bottom: 0;
 }
 
+.header {
+  padding-left: 15px;
+}
+
 .logo-part1 {
   width: 145px;
   height: 31px;
@@ -137,7 +141,7 @@ ul {
 
 .site-nav {
   align-items: center;
-  margin-right: 331px;
+  margin-right: auto;
 }
 
 .site-nav-items .link {
