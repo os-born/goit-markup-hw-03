@@ -64,6 +64,7 @@ ul {
 }
 
 .header {
+  border-bottom: 1px solid #ececec;
   padding-left: 15px;
 }
 
@@ -318,3 +319,5 @@ ul {
   background-color: #2196f3;
   color: var(--primary-white-color);
 }
+
+/* Portfolio-page-css */
