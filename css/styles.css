@@ -32,7 +32,6 @@ ul {
   width: 1200px;
   padding: 0 15px 0 15px;
   margin: auto;
-  background-color: greenyellow;
 }
 
 .page-header,
@@ -59,12 +58,7 @@ ul {
   text-decoration: none;
 }
 
-.section {
-  padding-bottom: 94px;
-  outline: 2px solid red;
-}
-
-.section.no-padding {
+.section .no-padding {
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -95,6 +89,10 @@ ul {
 
 .logo-header {
   padding: 24px 93px 25px 0;
+}
+
+.logo {
+  margin-top: 30px;
 }
 
 .logo-footer {
@@ -192,10 +190,6 @@ ul {
   background-color: var(--primary-white-color);
 }
 
-.advantages-list {
-  justify-content: space-t;
-}
-
 .advantages-list .advantages-item + .advantages-item {
   margin-left: 30px;
 }
@@ -214,11 +208,21 @@ ul {
   line-height: 1.71;
 }
 
-.portfolio-section {
+.example-section {
   padding-top: 94px;
-  padding-bottom: 94px;
   padding-left: 0;
   padding-right: 0;
+}
+
+.example-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 36px;
+  color: var(--title-text-color);
+}
+
+.example-list .example-item + .example-item {
+  margin-left: 30px;
 }
 
 .portfolio-card-title {
@@ -236,21 +240,24 @@ ul {
   color: #757575;
 }
 
-.portfolio-title {
-  font-size: 36px;
-  color: var(--title-text-color);
-}
-
 .team-section {
+  padding-top: 94px;
   background-color: var(--team-background-color);
 }
 
 .team-title {
+  text-align: center;
+  margin-bottom: 50px;
   font-size: 36px;
   color: var(--title-text-color);
 }
 
+.team-list .team-item + .team-item {
+  margin-left: 30px;
+}
+
 .footer {
+  padding: 60px 0 60px 15px;
   text-decoration: none;
   background-color: #2f303a;
 }
