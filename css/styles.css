@@ -200,6 +200,13 @@ ul {
   line-height: 1.71;
 }
 
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .portfolio-card-title {
   font-weight: bold;
   font-size: 18px;
