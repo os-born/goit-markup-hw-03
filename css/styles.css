@@ -61,7 +61,7 @@ ul {
   text-decoration: none;
 }
 
-.section .section:not(.hero-section) {
+.section z {
   padding-bottom: 94px;
 }
 
