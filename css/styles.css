@@ -358,6 +358,7 @@ ul {
   margin-right: auto;
   text-align: center;
   background-color: var(--hero-background-color);
+  background-image: url(../images/hero-bg-image.jpg);
 }
 
 .hero-button {
