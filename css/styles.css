@@ -100,7 +100,7 @@ ul {
 }
 
 .address-list li:not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 .logo-footer {
