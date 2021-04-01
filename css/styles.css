@@ -100,7 +100,7 @@ ul {
 }
 
 .address-list li:not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 .logo-footer {
@@ -321,16 +321,16 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.69;
+  line-height: 1.65;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.contacts-footer a {
+.contacts-footer .link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.69;
+  line-height: 1.65;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
